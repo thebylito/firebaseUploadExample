@@ -3,8 +3,7 @@ import { Platform, StyleSheet, Text, View, Button, Image } from 'react-native';
 import ImagePicker from 'react-native-image-crop-picker';
 import RNFirebase from 'react-native-firebase';
 const firebase = RNFirebase.initializeApp();
-const availability = firebase.googleApiAvailability;
-console.log(availability);
+
 export default class App extends Component {
   constructor(props) {
     super(props)
